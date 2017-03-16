@@ -56,10 +56,9 @@ public class createPlayer {
                 team = 2;
             }
             if (AlertBox.accept){
-            //Player p = new Player(firstNameTF.getText(),lastNameTF.getText(),realAge,team);
             new Team().addPlayer(firstNameTF.getText(),lastNameTF.getText(),realAge,team);
             AlertBox.display(window,"ALERT",firstNameTF.getText() + " " + lastNameTF.getText() + " " + realAge + " " + team);
-            window.setScene(MainGUI.mainMenu);
+            window.setScene(MainGUI.);
             }
         });
         gp.addRow(6,back,submit);

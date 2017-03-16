@@ -32,7 +32,6 @@ public class DeletePlayer {
         gp.setVgap(15);
 
         ObservableList<String> players = FXCollections.observableArrayList();
-
         for(Player p : new Team().getAllPlayers()){
             players.add(p.getFirstName() + " " + p.getLastName());
 
